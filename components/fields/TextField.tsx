@@ -24,6 +24,7 @@ export const TextFieldFormElement: FormElement = {
   designerComponent: DesignerComponent,
   formComponent: () => <div>Form component</div>,
   propertiesComponent: () => <div>Properties component</div>,
+  // 
 };
 
 function DesignerComponent({
