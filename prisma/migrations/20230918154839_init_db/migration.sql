@@ -1,7 +1,7 @@
 -- CreateTable
 CREATE TABLE "Form" (
     "id" SERIAL NOT NULL,
-    "useId" TEXT NOT NULL,
+    "userId" TEXT NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "published" BOOLEAN NOT NULL DEFAULT false,
     "name" TEXT NOT NULL,
